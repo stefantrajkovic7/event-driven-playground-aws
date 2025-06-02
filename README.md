@@ -1,7 +1,7 @@
-# Event-Driven Application with Node.js and AWS Lambda
+# Event-Driven AWS Lambda Applications with Node.js and Golang
 
 ## Overview
-This project implements an event-driven architecture using Node.js and AWS Lambda, demonstrating a scalable and serverless approach to building modern applications. The application leverages various AWS services to create a robust event-driven system.
+This project implements an AWS Lambda event-driven architecture using Node.js and Golang, demonstrating a scalable and serverless approach to building modern applications. The application leverages various AWS services to create a robust event-driven system.
 
 ## Architecture Components
 
@@ -39,7 +39,7 @@ This project implements an event-driven architecture using Node.js and AWS Lambd
 - Asynchronous communication
 - Fault tolerance and high availability
 
-## Development Setup
+## Development Setup for Node.js version
 1. Install dependencies:
    ```bash
    npm install
@@ -55,7 +55,7 @@ This project implements an event-driven architecture using Node.js and AWS Lambd
    serverless deploy
    ```
 
-## Project Structure
+## Project Structure for Node.js version
 ```
 serverless_node_aws_lambda/
 ├── .serverless/           # Serverless deployment artifacts
